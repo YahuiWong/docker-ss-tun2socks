@@ -1,0 +1,13 @@
+version: '2'
+services:
+  ss-tproxy:
+      # 镜像的路径
+    build: .
+    privileged: true
+    volumes:
+      - ./app:/app
+      - ./conf/ss-tun2socks.conf:/etc/tun2socks/ss-tun2socks.conf
+      - ./conf/ssr-local.json:/etc/ssr-local.json
+    restart: always
+        # 容器名称
+    container_name: ss-tproxy

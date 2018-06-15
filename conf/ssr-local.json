@@ -1,0 +1,14 @@
+{
+    "server": "serverip",
+    "server_port": port,
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "password": "pwd",
+    "timeout": 300,
+    "method": "rc4-md4",
+    "protocol": "origin",
+    "protocol_param": "",
+    "obfs": "plain",
+    "obfs_param": "",
+    "fast_open": false
+}
