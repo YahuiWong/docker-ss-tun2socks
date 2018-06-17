@@ -6,3 +6,4 @@ MAINTAINER YahuiWong <yahui9119@live.com>
 
 
 RUN curl --silent --location https://github.com/YahuiWong/Usefulfiles/raw/master/install-ss-tun2socks.sh  | bash - 
+CMD ss-tun2socks restart
